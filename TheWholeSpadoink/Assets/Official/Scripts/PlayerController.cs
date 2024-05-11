@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using static Cinemachine.DocumentationSortingAttribute;
 /*
- * Armaan Gill, Sophia, Owen
+ * Gill, Armaan, Sophia, Owen
  * 05/09/2024
  * Script that will hold basic functions of controlling the drift car and also when hit by object
  */
