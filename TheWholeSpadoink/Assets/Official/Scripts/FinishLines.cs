@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 /*
- * Armaan Gill,
+ * Gill, Armaan
  * 05/10/2024
  * Actiavtes next scene when crossing finish line
  */
