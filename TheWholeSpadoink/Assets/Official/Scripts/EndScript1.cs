@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 /*
- * Armaan Gill, Villeneuve Sophia
+ * Gill, Armaan, Villeneuve Sophia
  * 05/10/2024
  * Ends game
  */
