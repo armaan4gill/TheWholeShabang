@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UIElements;
 /*
- * Armaan Gill,
+ * Johnson, Owen
  * 05/10/2024
  * projectile
  */
