@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 /*
- * Johnson, Owen
+ * Johnson, Owen, Sophia
  * 05/10/2024
  * Makes the chaser chase the player
  */
