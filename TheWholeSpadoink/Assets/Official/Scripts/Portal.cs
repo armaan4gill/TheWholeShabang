@@ -4,7 +4,6 @@ using UnityEngine;
 
 /*
  * Gill, Armaan
- * Machus, Ryan
  * Last updated: 04/22/2024
  * This script teleports player to teleport point
  */
