@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 /*
- * Armaan Gill,
+ * Johnson, Owen
  * 05/10/2024
  * Makes the chaser chase the player
  */
