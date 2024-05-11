@@ -2,7 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UIElements;
-
+/*
+ * Armaan Gill,
+ * 05/10/2024
+ * projectile
+ */
 public class Laser : MonoBehaviour
 {
     Rigidbody rb;

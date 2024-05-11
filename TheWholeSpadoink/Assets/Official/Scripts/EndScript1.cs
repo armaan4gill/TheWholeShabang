@@ -3,7 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-
+/*
+ * Armaan Gill,
+ * 05/10/2024
+ * Ends game
+ */
 
 /// <summary>
 /// Quits the game

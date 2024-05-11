@@ -2,7 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
+/*
+ * Armaan Gill,
+ * 05/10/2024
+ * Actiavtes next scene when crossing finish line
+ */
 public class FinishLines : MonoBehaviour
 {
     public int sceneNum;

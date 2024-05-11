@@ -51,11 +51,7 @@ public class PlayerController : MonoBehaviour
     {
         Move();
 
-        //check if player has fallen below stage
-        if (transform.position.y < deathHeight)
-        {
-            BacktoBack();
-        }
+        
 
 
     }
@@ -99,15 +95,7 @@ public class PlayerController : MonoBehaviour
     }
 
 
-    // Respawn the player at the last known safe position
-    private void BacktoBack()
-    {
-        rb = GetComponent<Rigidbody>();
-        // Set player position to the starting position
-        transform.position = startPos;
-        // Reset velocity or any other necessary variables (optional)
-        rb.velocity = Vector3.zero; // Reset the car's velocity
-    }
+   
     public void StunOn()
     {
         stunIcon.gameObject.SetActive(true);

@@ -1,7 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+/*
+ * Armaan Gill,
+ * 05/10/2024
+ * Makes the chaser chase the player
+ */
 public class ChaserEnemyScript : MonoBehaviour
 {
     Rigidbody rb;
