@@ -940,6 +940,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CyberTruck
       objectReference: {fileID: 0}
+    - target: {fileID: 8727440730951010056, guid: 3374eed92fb6b6f4c90d704e192318a3, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

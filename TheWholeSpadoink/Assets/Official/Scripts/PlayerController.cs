@@ -44,8 +44,7 @@ public class PlayerController : MonoBehaviour
     private void Awake()
     {
 
-        rb = GetComponent<Rigidbody>();
-        startPos = transform.position;
+      
 
     }
     void Update()
@@ -98,13 +97,16 @@ public class PlayerController : MonoBehaviour
         Force = Vector3.Lerp(Force.normalized, transform.forward, Traction * Time.deltaTime) * Force.magnitude;
 
     }
-   
+
 
     // Respawn the player at the last known safe position
     private void BacktoBack()
     {
-        transform.position = respawnPoint;
-        // Reset velocity or any other necessary variables
+        rb = GetComponent<Rigidbody>();
+        // Set player position to the starting position
+        transform.position = startPos;
+        // Reset velocity or any other necessary variables (optional)
+        rb.velocity = Vector3.zero; // Reset the car's velocity
     }
     public void StunOn()
     {
