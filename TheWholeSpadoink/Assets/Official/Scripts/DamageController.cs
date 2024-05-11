@@ -22,16 +22,27 @@ public class DamageController : MonoBehaviour
     {
 
     }
+
+    /// <summary>
+    /// Activates sheild    
+    /// </summary>
     public void ShieldOn()
     {
         invulnShield.gameObject.SetActive(true);
         Invoke(nameof(ShieldOff), 0.5f);
     }
+    /// <summary>
+    /// deactivates sheild
+    /// </summary>
     public void ShieldOff()
     {
         invulnShield.gameObject.SetActive(false);
         if (invincible) Invoke(nameof(ShieldOn), 0.5f);
     }
+    /// <summary>
+    /// Makes  player take damage
+    /// </summary>
+    /// <param name="damage"></param>
     public void TakeDamage(int damage)
     {
         //if the player has invincibilty frames then they can't take damage

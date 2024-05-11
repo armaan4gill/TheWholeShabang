@@ -95,12 +95,17 @@ public class PlayerController : MonoBehaviour
     }
 
 
-   
+   /// <summary>
+   /// activates stun
+   /// </summary>
     public void StunOn()
     {
         stunIcon.gameObject.SetActive(true);
         Invoke(nameof(StunOff), 0.5f);
     }
+    /// <summary>
+    /// Deactivates stun
+    /// </summary>
     public void StunOff()
     {
         stunIcon.gameObject.SetActive(false);
