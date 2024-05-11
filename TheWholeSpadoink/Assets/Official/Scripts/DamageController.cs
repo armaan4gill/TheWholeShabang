@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 /*
- * Johnson, Owen, Sophia
+ * Johnson, Owen, Villeneuve Sophia
  * 05/10/2024
  *Controls damage
  */
